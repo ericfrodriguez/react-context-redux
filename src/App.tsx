@@ -9,7 +9,7 @@ function App() {
       <main>
         <h1>Introducción a TS - React</h1>
         <LoginPage />
-        <hr style={{ width: '100%', marginTop: 40, marginBottom: 40 }} />
+        <hr style={{ width: '50%', marginTop: 40, marginBottom: 40 }} />
         <Profile />
       </main>
     </AuthContextProvider>

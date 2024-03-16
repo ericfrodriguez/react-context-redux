@@ -15,3 +15,14 @@ export const login = (user: AuthState['user']): AuthAction => {
         }
     }
 }
+
+export const logout = (): AuthAction => {
+    return {
+        type: 'logout',
+        payload: {
+            status: 'not-authenticated',
+            token: undefined,
+            user: undefined,
+        }
+    }
+}
